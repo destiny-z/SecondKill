@@ -55,6 +55,8 @@ buildNumber.properties
 
 miaoshaserver.iml
 
-html/
+
+
+src/main/resources/application.properties
 
 
