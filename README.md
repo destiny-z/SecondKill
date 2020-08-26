@@ -1,5 +1,5 @@
 
-# miaoshaserver
+# SecondKill
 
 电商秒杀项目搭建
 
