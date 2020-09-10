@@ -103,7 +103,7 @@ public class OderServiceImpl implements OrderService {
 //        //异步更新库存
         boolean mqResult = itemService.asyncDecreaseStock(itemId, amount);
         if (!mqResult) {
-            itemService.increaseSales(itemId, amount);
+            itemService.increaseStock(itemId, amount);
             throw new BusinessException(EmBusinessError.MQ_SEND_FAIL);
         }
         //4.返回前端
